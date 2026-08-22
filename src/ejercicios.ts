@@ -28,3 +28,19 @@ for (let i = 0; i < num2.length; i++) {
     suma2 = suma2 + num2[i];}
 
 console.log(suma2); 
+
+
+
+//5. Calcular el promedio de los números del punto 3
+let promedio = suma / num.length;
+
+console.log(promedio);
+
+
+//6. Imprimir los números mayor a 50 del punto 3.
+
+for (let i = 0; i < num.length; i++) {
+    if (num[i] > 50) {
+        console.log(num[i]);
+    }
+}
